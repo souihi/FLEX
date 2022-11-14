@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Correction</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- header>(h1#header>{HEADER})+(h2#nav>{Nav})+nav#liens>ul>li*5>{lien $} -->
+  <header>
+    <h1>HEADER</h1>
+    <h2>Nav</h2>
+    <nav>
+      <ul>
+        <li>lien 1</li>
+        <li>lien 2</li>
+        <li>lien 3</li>
+        <li>lien 4</li>
+        <li>lien 5</li>
+      </ul>
+    </nav>
+  </header>
+  <!-- article#article>(aside#aside1>h2>{Aside1})+(section#paragraphes>p*3>lorem+lorem)+aside#aside2>h2>{Aside2} -->
+  <article>
+    <aside id="left">
+      <h2>COTE GAUCHE</h2>
+    </aside>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloribus quasi quis incidunt voluptate dignissimos harum? In odit ipsum, voluptatibus delectus ullam suscipit aliquam laboriosam, earum nihil dolores nobis veniam?
+      </p>
+      <p>
+        Iusto magnam labore in nostrum exercitationem laborum commodi doloremque. Sint saepe, numquam rerum id quae perferendis non, omnis eos nobis alias cum veritatis quisquam ad eum laudantium esse assumenda repudiandae.
+      </p>
+      <p>
+        Ipsum doloribus ea omnis quibusdam voluptates eaque dignissimos ipsa debitis dicta temporibus, totam, excepturi cum velit aut sunt consectetur cumque quo esse animi tempore voluptatem laboriosam quia eveniet? Expedita, beatae.
+      </p>
+    </section>
+    <aside id="right">
+      <h2>COTE DROIT</h2>
+    </aside>
+  </article>
+  <footer>
+    <h2>Footer</h2>
+    <a href="../../index.html">Retour Ã  l'accueil</a>
+  </footer>
+</body>
+</html>
